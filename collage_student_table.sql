@@ -35,3 +35,9 @@ WHERE age=19 OR age=21;
 SELECT * FROM students
 WHERE age >= 20
 AND (name = 'Rahul' OR name = 'Priya');
+
+SELECT * FROM students
+ORDER BY age;
+
+SELECT * FROM students
+ORDER BY age DESC;
