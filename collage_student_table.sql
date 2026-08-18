@@ -41,3 +41,8 @@ ORDER BY age;
 
 SELECT * FROM students
 ORDER BY age DESC;
+
+-- Show only the students who are at least 20 years old, and display them from oldest to youngest.
+SELECT * FROM students
+WHERE age>=20  
+ORDER BY age DESC;
