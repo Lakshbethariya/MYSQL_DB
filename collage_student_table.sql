@@ -51,3 +51,9 @@ ORDER BY age DESC;
 SELECT * FROM students
 ORDER BY age DESC
 LIMIT 2;
+
+-- Rahul's age was entered incorrectly. His age is actually 21. use UPDATE and SET keyword.
+UPDATE students
+SET age=21
+WHERE student_id=1;
+SELECT * from students;
