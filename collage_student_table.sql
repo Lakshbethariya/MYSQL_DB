@@ -46,3 +46,8 @@ ORDER BY age DESC;
 SELECT * FROM students
 WHERE age>=20  
 ORDER BY age DESC;
+
+-- Show me the 2 oldest students only with LIMIT keyword.
+SELECT * FROM students
+ORDER BY age DESC
+LIMIT 2;
