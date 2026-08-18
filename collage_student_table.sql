@@ -101,3 +101,7 @@ FROM students;
 -- Calculate the maximum age of students in the table.
 SELECT MAX(age)  
 FROM students;
+
+-- Calculate the maximum age of students in the table and give it an alias name as maximum_age.
+SELECT MAX(age) AS maximum_age
+FROM students;
