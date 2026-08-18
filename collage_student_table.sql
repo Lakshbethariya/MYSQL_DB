@@ -31,3 +31,7 @@ WHERE age>19 AND email='rahul@gmail.com';
 
 SELECT * FROM students
 WHERE age=19 OR age=21;
+
+SELECT * FROM students
+WHERE age >= 20
+AND (name = 'Rahul' OR name = 'Priya');
