@@ -22,3 +22,8 @@ CREATE TABLE products (
 ALTER TABLE products
 ADD CONSTRAINT fk_supplier 
 FOREIGN KEY (supplier_id) REFERENCES suppliers(supplier_id);
+
+INSERT INTO suppliers (supplier_name, phone, email, address) VALUES
+('Reliance Retail Ventures', '9876543210', 'support@relianceretail.in', 'Nariman Point, Mumbai, Maharashtra'),
+('Cloudtail India Pvt Ltd', '9123456780', 'vendor@cloudtail.in', 'Bellandur, Bengaluru, Karnataka'),
+('Aura Electronics India', '9988776655', 'sales@auraelectronics.co.in', 'Connaught Place, New Delhi');
